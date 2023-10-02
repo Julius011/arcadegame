@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm Arcadegame
+clear
+cc arcadegame.c $(pkg-config --libs --cflags raylib) -o Arcadegame
